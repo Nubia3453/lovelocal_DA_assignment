@@ -1,6 +1,7 @@
 use transactional_data;
 
 -- Total revenue per customer.
+-- to check how much a customer have spent till the date.
 SELECT 
     c.name AS 'Customer Name',
     SUM(total_amount) AS 'Total Revenu'
@@ -12,6 +13,7 @@ GROUP BY c.name
 ORDER BY SUM(total_amount) DESC;
     
 -- Average order value per product category.
+-- to check the average amount of money spent by each customer through out his customer life
 SELECT 
     p.category AS 'Product Category',
     ROUND(AVG(total_amount), 2) AS 'Avg order value'
@@ -25,6 +27,7 @@ GROUP BY category
 ORDER BY AVG(total_amount) DESC;
 
 -- Total number of orders by customer demographics (e.g., age, location).
+-- to check the customer segmentation based on location, age its.
 
 SELECT 
     (TIMESTAMPDIFF(YEAR,
@@ -43,6 +46,7 @@ GROUP BY c.location , (TIMESTAMPDIFF(YEAR,
 
 
 -- Average customer rating per product.
+-- to identify and rank products by rating, identify highest rated and lowest rated products
 SELECT 
     *
 FROM
