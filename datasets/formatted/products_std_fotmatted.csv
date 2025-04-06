@@ -1,0 +1,31 @@
+product_id,product_name,category,price,price_logged
+1,Wireless Mouse,Electronics,25,3.258096538021482
+2,Keyboard,Electronics,50,3.9318256327243257
+3,Phone Case,Accessories,15,2.772588722239781
+4,Headphones,Electronics,100,4.61512051684126
+5,Desk Lamp,Furniture,60,4.110873864173311
+6,Smartwatch,Electronics,150,5.017279836814924
+7,Smartphone,Electronics,700,6.55250788703459
+8,Laptop,Electronics,1000,6.90875477931522
+9,Table,Furniture,150,5.017279836814924
+10,Chair,Furniture,100,4.61512051684126
+11,Backpack,Accessories,40,3.713572066704308
+12,Game Console,Electronics,500,6.2166061010848646
+13,Smart Speaker,Electronics,200,5.303304908059076
+14,Wrist Watch,Accessories,120,4.795790545596741
+15,Table Lamp,Furniture,45,3.828641396489095
+16,Laser Printer,Electronics,200,5.303304908059076
+17,Refrigerator,Appliances,800,6.68586094706836
+18,Oven,Appliances,500,6.2166061010848646
+19,Microwave,Appliances,150,5.017279836814924
+20,Blender,Appliances,80,4.394449154672439
+21,Sofa,Furniture,700,6.55250788703459
+22,Air Conditioner,Appliances,350,5.860786223465865
+23,Coffee Maker,Appliances,70,4.2626798770413155
+24,Juicer,Appliances,60,4.110873864173311
+25,Smart TV,Electronics,600,6.398594934535208
+26,Projector,Electronics,400,5.993961427306569
+27,Vacuum Cleaner,Appliances,130,4.875197323201151
+28,Toaster,Appliances,30,3.4339872044851463
+29,Shirt,Clothing,25,3.258096538021482
+30,Jeans,Clothing,50,3.9318256327243257
